@@ -4,7 +4,8 @@ import Resume from '../../assets/Images/Resume 4.15.pdf'
 const CTA = () => {
   return (
     <div className='cta'>
-      <a href={Resume} download>Resume</a>
+      <a href={Resume} download className='btn'>Resume</a>
+      <a href="#contact" className='btn btn-primary'>Let's Connect</a>
     </div>
   )
 }
