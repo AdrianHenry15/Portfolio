@@ -22,42 +22,42 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'This is a portfolio item title',
+    title: 'EXAMPLE',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'This is a portfolio item title',
+    title: 'EXAMPLE',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'This is a portfolio item title',
+    title: 'EXAMPLE',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'This is a portfolio item title',
+    title: 'EXAMPLE',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'This is a portfolio item title',
+    title: 'EXAMPLE',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'This is a portfolio item title',
+    title: 'EXAMPLE',
     github: 'https://github.com',
     demo: 'https://github.com'
   }
