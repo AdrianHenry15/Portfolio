@@ -134,6 +134,7 @@
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
+    transition: var(--transition);
 }
 
 .about__icon {
