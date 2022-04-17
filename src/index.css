@@ -17,6 +17,7 @@
     --color-primary-variant: rgba(0, 0, 0, 0.1);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255,0.6);
+    --color-border-variant: rgb(16, 19, 24);
 
     --transition: all 400ms ease;
 

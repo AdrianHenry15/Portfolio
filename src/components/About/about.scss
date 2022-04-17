@@ -128,11 +128,12 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    transition: var(--transition)
 }
 
 .about__card:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-border-variant);
     cursor: default;
     transition: var(--transition);
 }

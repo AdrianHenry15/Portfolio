@@ -34,8 +34,9 @@
 
 .experience__container > div:hover {
     background-color: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-border-variant);
     cursor: default;
+    transition: var(--transition)
 }
 
 .experience__container > div h3 {

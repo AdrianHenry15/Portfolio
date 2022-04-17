@@ -14,8 +14,9 @@
 
 .service:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-border-variant);
     cursor: default;
+    transition: var(--transition)
 }
 
 .service__head {
