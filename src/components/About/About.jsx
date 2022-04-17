@@ -65,9 +65,11 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque placeat sed amet
-            architecto possimus, exercitationem deleniti nisi magni eos. Veritatis quia autem
-            expedita dignissimos veniam? Aut error tempora rem autem.
+            Web Developer leveraging a background in Health Insurance, Hospitality and Audio
+            Production to build a more intuitive user experience on the web. With each project, the
+            aim is to gain more knowledge about Programming, Software Development,Engineering, and
+            the benefits of each user. Excited to spend time learning more about building better
+            experiences for users and leveraging skills to help a high level team.
           </p>
 
           <a href="#contact" className="btn btn-primary">
