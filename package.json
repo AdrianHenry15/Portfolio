@@ -10,13 +10,17 @@
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
     "react-scripts": "5.0.1",
+    "swiper": "^8.1.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +42,8 @@
   },
   "devDependencies": {
     "eslint": "^8.13.0",
-    "eslint-config-react-app": "^7.0.1"
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-prettier": "^4.0.0"
   }
 }

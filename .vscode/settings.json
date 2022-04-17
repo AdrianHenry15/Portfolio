@@ -1,31 +1,34 @@
 {
- "cSpell.words": [
-  "adipisicing",
-  "amet",
-  "architecto",
-  "autem",
-  "browserslist",
-  "consectetur",
-  "deleniti",
-  "dignissimos",
-  "elit",
-  "exercitationem",
-  "expedita",
-  "magni",
-  "Neque",
-  "placeat",
-  "possimus",
-  "reactportfolio",
-  "tempora",
-  "textnodes",
-  "veniam",
-  "Veritatis"
- ],
+  "cSpell.words": [
+    "adipisicing",
+    "amet",
+    "architecto",
+    "autem",
+    "AVTR",
+    "browserslist",
+    "consectetur",
+    "deleniti",
+    "dignissimos",
+    "elit",
+    "exercitationem",
+    "expedita",
+    "magni",
+    "Neque",
+    "placeat",
+    "possimus",
+    "prettierrc",
+    "reactportfolio",
+    "Swiper",
+    "tempora",
+    "textnodes",
+    "veniam",
+    "Veritatis"
+  ],
 
- "[javascript]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
- },
- "[javascriptreact]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
- }
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

@@ -1,0 +1,67 @@
+/* .portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+} */
+
+.portfolio__container {
+    text-align: center;
+}
+
+.portfolio__item {
+    background: var(--color-bg-variant);
+    padding: 1rem 10rem 0 10rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.portfolio__item:hover {
+    border-color: var(--color-primary-variant);
+    overflow: hidden;
+}
+
+.portfolio__item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio__item h3 {
+    margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+/* =========================== Image circles =========================== */
+.portfolio__item-image  {
+    width: 10rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 45%;
+    margin: 0 auto 1rem;
+    border: 0.4rem solid var(--color-primary-variant);
+}
+
+
+/* ========================= MEDIA QUERIES (MEDIUM DEVICES) ======================== */
+/* ================================= Tablets ================================= */
+@media screen and (max-width: 1024px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+/* ========================= MEDIA QUERIES (SMALL DEVICES) ======================== */
+
+@media screen and (max-width: 600px) {
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

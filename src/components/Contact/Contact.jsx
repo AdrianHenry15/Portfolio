@@ -1,12 +1,14 @@
-import React from 'react'
-import './contact.css'
+/* eslint-disable prettier/prettier */
+import React from 'react';
+import './contact.css';
 
 const Contact = () => {
   return (
-    <section id='contact'>
-     Contact
-   </section>
-  )
-}
+    <section id="contact">
+      <h5>Get In Touch</h5>
+      <h2>Contact</h2>
+    </section>
+  );
+};
 
-export default Contact
+export default Contact;
