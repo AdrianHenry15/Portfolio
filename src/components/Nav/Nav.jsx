@@ -4,8 +4,8 @@ import './nav.css';
 import { FaHome } from 'react-icons/fa';
 import { FaUserAlt } from 'react-icons/fa';
 import { FcGraduationCap } from 'react-icons/fc';
-import { MdOutlineHomeRepairService } from 'react-icons/md';
-import { BiMessageAltCheck } from 'react-icons/bi';
+import { GiBookCover } from 'react-icons/gi';
+import { RiContactsBookFill } from 'react-icons/ri';
 import { useState } from 'react';
 
 const Nav = () => {
@@ -28,16 +28,16 @@ const Nav = () => {
         <FcGraduationCap />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav('#services')}
+        href="#portfolio"
+        onClick={() => setActiveNav('#portfolio')}
         className={activeNav === '#services' ? 'active' : ''}>
-        <MdOutlineHomeRepairService />
+        <GiBookCover />
       </a>
       <a
         href="#contact"
         onClick={() => setActiveNav('#contact')}
         className={activeNav === '#contact' ? 'active' : ''}>
-        <BiMessageAltCheck />
+        <RiContactsBookFill />
       </a>
     </nav>
   );

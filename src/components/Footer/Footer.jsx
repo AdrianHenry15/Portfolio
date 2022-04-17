@@ -3,6 +3,7 @@ import './footer.css';
 import { AiFillFacebook } from 'react-icons/ai';
 import { TiSocialInstagram } from 'react-icons/ti';
 import { AiFillLinkedin } from 'react-icons/ai';
+import { FaGithubSquare } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -24,18 +25,18 @@ const Footer = () => {
           {' '}
           <a href="#experience">Experience</a>
         </li>
-        <li>
+        {/* <li>
           {' '}
           <a href="#services">Services</a>
-        </li>
+        </li> */}
         <li>
           {' '}
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio">Projects</a>
         </li>
-        <li>
+        {/* <li>
           {' '}
           <a href="#testimonials">Testimonials</a>
-        </li>
+        </li> */}
         <li>
           {' '}
           <a href="#contact">Contact</a>
@@ -43,14 +44,17 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com">
+        <a href="https://www.facebook.com/adrian.henry.39982">
           <AiFillFacebook />
         </a>
-        <a href="https://Instagram.com">
+        <a href="https://www.instagram.com/theadrianhenry/">
           <TiSocialInstagram />
         </a>
-        <a href="https://Linkedin.com">
+        <a href="https://www.linkedin.com/in/adrian-henry-199595207/">
           <AiFillLinkedin />
+        </a>
+        <a href="https://github.com/AdrianHenry15">
+          <FaGithubSquare />
         </a>
       </div>
 
