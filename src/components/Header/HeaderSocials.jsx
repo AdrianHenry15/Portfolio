@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import React from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';

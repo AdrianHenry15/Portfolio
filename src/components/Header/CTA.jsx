@@ -1,6 +1,4 @@
-/* eslint-disable prettier/prettier */
 /* eslint-disable react/no-unescaped-entities */
-/* eslint-disable prettier/prettier */
 import React from 'react';
 import Resume from '../../assets/Images/Resume 4.15.pdf';
 

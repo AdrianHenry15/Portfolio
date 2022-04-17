@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import React from 'react';
 import './portfolio.css';
 import IMG1 from '../../assets/Images/port-1.png';

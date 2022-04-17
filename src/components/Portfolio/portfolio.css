@@ -43,7 +43,7 @@
     width: 10rem;
     aspect-ratio: 1/1;
     overflow: hidden;
-    border-radius: 45%;
+    border-radius: 50%;
     margin: 0 auto 1rem;
     border: 0.4rem solid var(--color-primary-variant);
 }
@@ -53,8 +53,7 @@
 /* ================================= Tablets ================================= */
 @media screen and (max-width: 1024px) {
     .portfolio__container {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
+       width: 60%;
     }
 }
 /* ========================= MEDIA QUERIES (SMALL DEVICES) ======================== */

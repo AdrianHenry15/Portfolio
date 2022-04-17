@@ -1,6 +1,4 @@
-/* eslint-disable prettier/prettier */
 /* eslint-disable react/no-unescaped-entities */
-/* eslint-disable prettier/prettier */
 import React from 'react';
 import './header.css';
 import CTA from './CTA';
@@ -18,7 +16,7 @@ const Header = () => {
         <HeaderSocials />
 
         <div className="logo">
-          <img src={Logo} alt="logo" />
+          <img className="logo-item" src={Logo} alt="logo" />
         </div>
 
         <a href="#contact" className="scroll__down">

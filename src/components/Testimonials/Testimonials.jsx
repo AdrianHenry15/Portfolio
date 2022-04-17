@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-// eslint-disable-next-line prettier/prettier
 import React from 'react';
 import './testimonials.css';
 import AVTR1 from '../../assets/Images/img-me.jpg';
