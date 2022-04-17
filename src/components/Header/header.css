@@ -69,4 +69,26 @@ header {
     .header__socials, .scroll__down {
         display: none;
     }
+
+    header {
+        height: 100vh;
+    }
+}
+
+/* ========================= MEDIA QUERIES (SMALL DEVICES) ======================== */
+@media screen and (max-width: 385px) {
+    header {
+        height: 130vh;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    header {
+        height: 125vh;
+    }
+
+    header img {
+        width: 50vh;
+        margin-left: 5rem;
+    }
 }

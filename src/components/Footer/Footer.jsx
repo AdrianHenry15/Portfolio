@@ -8,9 +8,7 @@ import { FaGithubSquare } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer_logo">
-        Adrian Henry
-      </a>
+      <a href="#" className="footer_logo"></a>
 
       <ul className="permalinks">
         <li>
