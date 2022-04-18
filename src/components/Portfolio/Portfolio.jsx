@@ -4,7 +4,6 @@ import IMG1 from '../../assets/Images/port-1.png';
 import IMG2 from '../../assets/Images/port-2.png';
 import IMG3 from '../../assets/Images/port-3.png';
 import IMG4 from '../../assets/Images/port-4.png';
-import IMG5 from '../../assets/Images/port-5.png';
 import IMG6 from '../../assets/Images/port-6.png';
 
 // import Swiper core and required modules
@@ -22,56 +21,47 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'EXAMPLE',
-    description: 'This is a description',
-    tools: '(These are the tools)',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'Open Source Kanban',
+    description: 'Social Media App',
+    tools: '(Javascript, HandlebarsJS, CSS, NodeJS, ExpressJS)',
+    github: 'https://github.com/AdrianHenry15/Group-Project-2',
+    demo: 'https://oskdb.herokuapp.com/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'EXAMPLE',
-    description: 'This is a description',
-    tools: '(These are the tools)',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'GitPokemon',
+    description: 'Connect Your Github with a Pokemon',
+    tools: '(Javascript, HTML, CSS, jQuery)',
+    github: 'https://github.com/AdrianHenry15/Pokemon-App',
+    demo: 'https://adrianhenry15.github.io/Pokemon-App/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'EXAMPLE',
-    description: 'This is a description',
-    tools: '(These are the tools)',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'Taskinator',
+    description: 'A Task Tracker App',
+    tools: '(Javascript, CSS, HTML, Web Storage API)',
+    github: 'https://github.com/AdrianHenry15/Taskinator-Website',
+    demo: 'https://adrianhenry15.github.io/Taskinator-Website/'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'EXAMPLE',
-    description: 'This is a description',
-    tools: '(These are the tools)',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'Task Master Pro',
+    description: 'A Task Creation Application',
+    tools: '(Javascript, HTML, CSS, jQuery)',
+    github: 'https://github.com/AdrianHenry15/Task-Master-Pro-App',
+    demo: 'https://adrianhenry15.github.io/Task-Master-Pro-App/'
   },
   {
     id: 5,
-    image: IMG5,
-    title: 'EXAMPLE',
-    description: 'This is a description',
-    tools: '(These are the tools)',
-    github: 'https://github.com',
-    demo: 'https://github.com'
-  },
-  {
-    id: 6,
     image: IMG6,
-    title: 'EXAMPLE',
-    description: 'This is a description',
-    tools: '(These are the tools)',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'Git Book',
+    description: 'Open Source Project Finder App',
+    tools: '(Javascript, HTML, CSS)',
+    github: 'https://github.com/AdrianHenry15/Git-Book',
+    demo: 'https://adrianhenry15.github.io/Git-Book/'
   }
 ];
 
