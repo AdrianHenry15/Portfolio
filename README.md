@@ -1,8 +1,6 @@
 # My React Portfolio
 
-## Link
-
-https://react-portfolio-2.vercel.app/
+## [Link](https://react-portfolio-2.vercel.app/)
 
 # Description
 This application is a display of the talents that Adrian Henry possesses as a Javascript Web Developer.
