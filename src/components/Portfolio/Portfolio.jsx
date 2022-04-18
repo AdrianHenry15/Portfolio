@@ -23,6 +23,8 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'EXAMPLE',
+    description: 'This is a description',
+    tools: '(These are the tools)',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
@@ -30,6 +32,8 @@ const data = [
     id: 2,
     image: IMG2,
     title: 'EXAMPLE',
+    description: 'This is a description',
+    tools: '(These are the tools)',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
@@ -37,6 +41,8 @@ const data = [
     id: 3,
     image: IMG3,
     title: 'EXAMPLE',
+    description: 'This is a description',
+    tools: '(These are the tools)',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
@@ -44,6 +50,8 @@ const data = [
     id: 4,
     image: IMG4,
     title: 'EXAMPLE',
+    description: 'This is a description',
+    tools: '(These are the tools)',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
@@ -51,6 +59,8 @@ const data = [
     id: 5,
     image: IMG5,
     title: 'EXAMPLE',
+    description: 'This is a description',
+    tools: '(These are the tools)',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
@@ -58,6 +68,8 @@ const data = [
     id: 6,
     image: IMG6,
     title: 'EXAMPLE',
+    description: 'This is a description',
+    tools: '(These are the tools)',
     github: 'https://github.com',
     demo: 'https://github.com'
   }
@@ -81,13 +93,17 @@ const Portfolio = () => {
         // onSwiper={(swiper) => console.log(swiper)}
         // onSlideChange={() => console.log("slide change")}
       >
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, description, tools, github, demo }) => {
           return (
             <SwiperSlide key={id} className="portfolio__item">
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
+              <i className="portfolio__desc">{description}</i> <br />
+              <small className="portfolio__tools">
+                <i>{tools}</i>
+              </small>
               <div className="portfolio__item-cta">
                 <a href={github} className="btn" target="_blank" rel="noreferrer">
                   Github

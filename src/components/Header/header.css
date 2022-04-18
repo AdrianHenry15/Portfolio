@@ -84,11 +84,24 @@ header {
 
 @media screen and (max-height: 800px) {
     header {
-        height: 125vh;
+        height: 105vh;
     }
 
     header img {
         width: 50vh;
-        margin-left: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    header  {
+        height: 115vh;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    header {
+        height: 125vh;
     }
 }
