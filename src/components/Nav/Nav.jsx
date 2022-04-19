@@ -1,11 +1,13 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
 import './nav.css';
+// react icons
 import { FaHome } from 'react-icons/fa';
 import { FaUserAlt } from 'react-icons/fa';
 import { FcGraduationCap } from 'react-icons/fc';
 import { GiBookCover } from 'react-icons/gi';
 import { RiContactsBookFill } from 'react-icons/ri';
+import { HiUserGroup } from 'react-icons/hi';
 import { useState } from 'react';
 
 const Nav = () => {
@@ -38,6 +40,12 @@ const Nav = () => {
         onClick={() => setActiveNav('#contact')}
         className={activeNav === '#contact' ? 'active' : ''}>
         <RiContactsBookFill />
+      </a>
+      <a
+        href="#footer"
+        onClick={() => setActiveNav('#footer')}
+        className={activeNav === '#footer' ? 'active' : ''}>
+        <HiUserGroup />
       </a>
     </nav>
   );

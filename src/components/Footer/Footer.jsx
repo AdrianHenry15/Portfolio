@@ -7,7 +7,7 @@ import { FaGithubSquare } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
       <a href="#" className="footer_logo"></a>
 
       <ul className="permalinks">

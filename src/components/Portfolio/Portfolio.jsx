@@ -4,7 +4,13 @@ import IMG1 from '../../assets/Images/port-1.png';
 import IMG2 from '../../assets/Images/port-2.png';
 import IMG3 from '../../assets/Images/port-3.png';
 import IMG4 from '../../assets/Images/port-4.png';
-import IMG6 from '../../assets/Images/port-6.png';
+import IMG5 from '../../assets/Images/port-6.png';
+import IMG6 from '../../assets/Images/blob_app.png';
+import IMG7 from '../../assets/Images/calendar_app.png';
+import IMG8 from '../../assets/Images/run_buddy.png';
+import IMG9 from '../../assets/Images/weather_app.png';
+import IMG10 from '../../assets/Images/work_day_app.png';
+import IMG11 from '../../assets/Images/zoo_keepr.png';
 
 // import Swiper core and required modules
 import { Navigation } from 'swiper';
@@ -56,12 +62,67 @@ const data = [
   },
   {
     id: 5,
-    image: IMG6,
+    image: IMG5,
     title: 'Git Book',
     description: 'Open Source Project Finder App',
     tools: '(Javascript, HTML, CSS)',
     github: 'https://github.com/AdrianHenry15/Git-Book',
     demo: 'https://adrianhenry15.github.io/Git-Book/'
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: 'Blob',
+    description: 'Application For Social Blogging',
+    tools:
+      '(Javascript, NodeJS, ExpressJS, dotenv, MySQL, Sequelize, bcrypt, HandlebarsJS, Heroku, JawsDB)',
+    github: 'https://github.com/AdrianHenry15/blob',
+    demo: 'https://rocky-wave-46848.herokuapp.com/'
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: 'A Calendar App',
+    description: 'Local Time Calendar Scheduler',
+    tools: '(Javascript, HTML, CSS, MomentJS, jQuery)',
+    github: 'https://github.com/AdrianHenry15/Calendar-Application',
+    demo: 'https://adrianhenry15.github.io/Calendar-Application/'
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: 'Run Buddy',
+    description: 'Fitness Training Services Website',
+    tools: '(HTML, CSS)',
+    github: 'https://github.com/AdrianHenry15/Run-Buddy-Website',
+    demo: 'https://adrianhenry15.github.io/Run-Buddy-Website/'
+  },
+  {
+    id: 9,
+    image: IMG9,
+    title: '4Cast Weather App',
+    description: 'A Weather Application',
+    tools: '(Javascript, HTML, CSS, OpenWeather API)',
+    github: 'https://github.com/AdrianHenry15/4Cast',
+    demo: 'https://adrianhenry15.github.io/4Cast/'
+  },
+  {
+    id: 10,
+    image: IMG10,
+    title: 'iPlanner',
+    description: 'A Work Day Scheduler',
+    tools: '(Javascript, HTML, CSS. MomentJS)',
+    github: 'https://github.com/AdrianHenry15/iPlanner',
+    demo: 'https://adrianhenry15.github.io/iPlanner/'
+  },
+  {
+    id: 11,
+    image: IMG11,
+    title: 'ZooKeepr',
+    description: 'Animal Enthusiast App',
+    tools: '(Javascript, ExpressJS, Vercel, NodeJS)',
+    github: 'https://github.com/AdrianHenry15/zookeepr',
+    demo: 'https://zookeepr.vercel.app/'
   }
 ];
 
