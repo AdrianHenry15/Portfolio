@@ -4,7 +4,7 @@ import './nav.css';
 // react icons
 import { FaHome } from 'react-icons/fa';
 import { FaUserAlt } from 'react-icons/fa';
-import { FcGraduationCap } from 'react-icons/fc';
+import { FaLaptopCode } from 'react-icons/fa';
 import { GiBookCover } from 'react-icons/gi';
 import { RiContactsBookFill } from 'react-icons/ri';
 import { HiUserGroup } from 'react-icons/hi';
@@ -27,7 +27,7 @@ const Nav = () => {
         href="#experience"
         onClick={() => setActiveNav('#experience')}
         className={activeNav === '#experience' ? 'active' : ''}>
-        <FcGraduationCap />
+        <FaLaptopCode />
       </a>
       <a
         href="#portfolio"
