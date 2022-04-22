@@ -11,7 +11,14 @@ This application is a display of the talents that Adrian Henry possesses as a Ja
 # Tools
 React, EmailJs, SwiperJs, Sass, Css
 
+![icons8-react-native-48](https://user-images.githubusercontent.com/95331448/164760219-65a1c252-1c62-476c-bc4d-8a6c9b6d53e5.png)
+![icons8-sass-48](https://user-images.githubusercontent.com/95331448/164760340-7f424773-1c93-41fd-bbe9-2eb14dc1b981.png)
+![icons8-css-64](https://user-images.githubusercontent.com/95331448/164760376-a17d7295-02d5-4d58-b537-29b1efc79fd2.png)
+
+
+
 # Screenshots
+
 
 ![port_2-1](https://user-images.githubusercontent.com/95331448/163729627-322dde49-4d89-423f-87b6-738beabb068b.png)
 ![port_2-2](https://user-images.githubusercontent.com/95331448/163729628-e02d5523-cf4d-49de-b205-a80d3ff384db.png)
