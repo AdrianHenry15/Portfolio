@@ -11,6 +11,8 @@ import IMG8 from '../../assets/Images/run_buddy.png';
 import IMG9 from '../../assets/Images/weather_app.png';
 import IMG10 from '../../assets/Images/work_day_app.png';
 import IMG11 from '../../assets/Images/zoo_keepr.png';
+import IMG12 from '../../assets/Images/budget_app.png';
+import IMG13 from '../../assets/Images/food_fest_app.png';
 
 // import Swiper core and required modules
 import { Navigation } from 'swiper';
@@ -123,6 +125,26 @@ const data = [
     tools: '(Javascript, ExpressJS, Vercel, NodeJS)',
     github: 'https://github.com/AdrianHenry15/zookeepr',
     demo: 'https://zookeepr.vercel.app/'
+  },
+  {
+    id: 12,
+    image: IMG12,
+    title: 'Budget Tracker',
+    description: 'Budget Tracking Progressive Web Application',
+    tools:
+      '(Javascript, ExpressJS, Vercel, NodeJS, Mongoose, IndexedDB, Service Worker, Bootstrap, MongoDB)',
+    github: 'https://github.com/AdrianHenry15/Track-Buddy-Budget-Tracker',
+    demo: 'https://track-buddy-budget-tracker.vercel.app/'
+  },
+  {
+    id: 13,
+    image: IMG13,
+    title: 'Food Festival',
+    description: 'Food Festival Progressive Web Application',
+    tools:
+      '(Javascript, ExpressJS, Vercel, NodeJS, Mongoose, Service Worker, Webpack, File-Loader, Image-Webpack-Analyzer, SW- Precache-Webpack, Webpack-PWA-Manifest)',
+    github: 'https://github.com/AdrianHenry15/food-festival',
+    demo: 'https://adrianhenry15.github.io/food-festival/'
   }
 ];
 
