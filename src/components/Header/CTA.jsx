@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import Resume from '../../assets/Images/Resume 4.15.pdf';
+import Resume from '../../assets/Images/Resume 4.23.pdf';
 
 const CTA = () => {
   return (
