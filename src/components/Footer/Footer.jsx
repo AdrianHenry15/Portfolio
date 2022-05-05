@@ -31,10 +31,10 @@ const Footer = () => {
           {' '}
           <a href="#portfolio">Projects</a>
         </li>
-        {/* <li>
+        <li>
           {' '}
-          <a href="#testimonials">Testimonials</a>
-        </li> */}
+          <a href="#testimonials">References</a>
+        </li>
         <li>
           {' '}
           <a href="#contact">Contact</a>

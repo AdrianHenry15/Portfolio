@@ -8,6 +8,7 @@ import { FaLaptopCode } from 'react-icons/fa';
 import { GiBookCover } from 'react-icons/gi';
 import { RiContactsBookFill } from 'react-icons/ri';
 import { HiUserGroup } from 'react-icons/hi';
+import { RiSuitcaseLine } from 'react-icons/ri';
 import { useState } from 'react';
 
 const Nav = () => {
@@ -34,6 +35,12 @@ const Nav = () => {
         onClick={() => setActiveNav('#portfolio')}
         className={activeNav === '#services' ? 'active' : ''}>
         <GiBookCover />
+      </a>
+      <a
+        href="#testimonials"
+        onClick={() => setActiveNav('#testimonials')}
+        className={activeNav === '#testimonials' ? 'active' : ''}>
+        <RiSuitcaseLine />
       </a>
       <a
         href="#contact"

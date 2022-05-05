@@ -55,12 +55,12 @@ const About = () => {
             <article className="about__card">
               <FaUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>100 clients Worldwide</small>
+              <small>25+ Clients Worldwide</small>
             </article>
             <article className="about__card">
               <FaRegFolderOpen className="about__icon" />
               <h5>Projects</h5>
-              <small>50+ Completed Projects</small>
+              <small>25+ Completed Projects</small>
             </article>
           </div>
 

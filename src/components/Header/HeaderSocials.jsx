@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';
-import { TiSocialInstagramCircular } from 'react-icons/ti';
+import { FiInstagram } from 'react-icons/fi';
 
 const HeaderSocials = () => {
   return (
@@ -16,7 +16,7 @@ const HeaderSocials = () => {
         <BsGithub />
       </a>
       <a href="https://www.instagram.com/theadrianhenry/" target="_blank" rel="noreferrer">
-        <TiSocialInstagramCircular />
+        <FiInstagram />
       </a>
     </div>
   );

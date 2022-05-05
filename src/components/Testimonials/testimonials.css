@@ -22,9 +22,17 @@
 }
 
 /* Testimonial Text */
-.client__review {
+.client__title {
     color: var(--color-light);
     font-weight: 300;
+    display: block;
+    width: 80%;
+    margin:  0.8rem auto 0;
+}
+.client__contactNum {
+    color: var(--color-light);
+    font-weight: 300;
+    font-style: italic;
     display: block;
     width: 80%;
     margin:  0.8rem auto 0;
