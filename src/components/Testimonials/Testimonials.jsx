@@ -15,12 +15,14 @@ import 'swiper/css/pagination';
 
 const data = [
   {
+    id: 1,
     avatar: AVTR1,
     name: 'John Rivers',
     title: 'Owner of Four Rivers Smokehouse',
     contactNum: '407-256-8089'
   },
   {
+    id: 2,
     avatar: AVTR2,
     name: 'Shannon Gravitte',
     title: 'Vice President of Advent Health',
@@ -49,10 +51,10 @@ const Testimonials = () => {
         modules={[EffectCoverflow, Pagination]}
         className="container testimonials__container"
         spaceBetween={40}>
-        {data.map(({ avatar, name, title, contactNum }) => {
+        {data.map(({ id, avatar, name, title, contactNum }) => {
           return (
             // eslint-disable-next-line react/jsx-key
-            <SwiperSlide className="testimonial">
+            <SwiperSlide key={id} className="testimonial">
               <div className="client__avatar">
                 <img src={avatar} alt="avatar" />
               </div>
