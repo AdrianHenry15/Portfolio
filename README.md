@@ -1,4 +1,4 @@
-# My React Portfolio
+# My Portfolio
 
 ## [Link](https://react-portfolio-2.vercel.app/)
 
