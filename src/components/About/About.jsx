@@ -50,7 +50,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>Entry-Level Developer</small>
+              <small>Full Stack Software Developer</small>
             </article>
             <article className="about__card">
               <FaUsers className="about__icon" />
@@ -65,11 +65,11 @@ const About = () => {
           </div>
 
           <p>
-            Web Developer leveraging a background in Health Insurance, Hospitality and Audio
-            Production to build a more intuitive user experience on the web. With each project, the
+            Full Stack Software Developer leveraging a background in Health Insurance, Hospitality and Audio
+            Production to build a more Intuitive User experience on The Web. With each project, the
             aim is to gain more knowledge about Programming, Software Development,Engineering, and
-            the benefits of each user. Excited to spend time learning more about building better
-            experiences for users and leveraging skills to help a high level team.
+            the benefits of Each User. Excited to spend time learning more about building better
+            Experiences for Users and leveraging skills to help a High Level Team.
           </p>
 
           <a href="#contact" className="btn btn-primary">
