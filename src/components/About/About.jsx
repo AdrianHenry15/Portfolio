@@ -67,7 +67,7 @@ const About = () => {
           <p>
             Full Stack Software Developer leveraging a background in Health Insurance, Hospitality and Audio
             Production to build a more Intuitive User experience on The Web. With each project, the
-            aim is to gain more knowledge about Programming, Software Development,Engineering, and
+            aim is to gain more knowledge about Programming, Software Development, Engineering, and
             the benefits of Each User. Excited to spend time learning more about building better
             Experiences for Users and leveraging skills to help a High Level Team.
           </p>
