@@ -13,6 +13,7 @@ import IMG10 from '../../assets/Images/work_day_app.png';
 import IMG11 from '../../assets/Images/zoo_keepr.png';
 import IMG12 from '../../assets/Images/budget_app.png';
 import IMG13 from '../../assets/Images/food_fest_app.png';
+import IMG14 from '../../assets/Images/planit.png'
 
 // import Swiper core and required modules
 import { Navigation } from 'swiper';
@@ -26,108 +27,28 @@ import 'swiper/css/navigation';
 // import "swiper/css/scrollbar";
 
 const data = [
+
   {
     id: 1,
-    image: IMG1,
-    title: 'Open Source Kanban',
-    description: 'Social Media App',
-    tools: '(Javascript, HandlebarsJS, CSS, NodeJS, ExpressJS)',
-    github: 'https://github.com/AdrianHenry15/Group-Project-2',
-    demo: 'https://oskdb.herokuapp.com/'
+    image: IMG14,
+    title: 'Plan-It Organizer',
+    description: 'Note Organization Application',
+    tools: '(React, GraphQl, Tailwind CSS, JWTs, MongoDB, Mongoose, Express, Apollo, Bcrypt)',
+    github: 'https://github.com/AdrianHenry15/Plan-It-Organizer',
+    demo: 'https://plan-it-organizer.herokuapp.com/'
   },
   {
     id: 2,
-    image: IMG2,
-    title: 'GitPokemon',
-    description: 'Connect Your Github with a Pokemon',
-    tools: '(Javascript, HTML, CSS, jQuery)',
-    github: 'https://github.com/AdrianHenry15/Pokemon-App',
-    demo: 'https://adrianhenry15.github.io/Pokemon-App/'
+    image: IMG13,
+    title: 'Food Festival',
+    description: 'Food Festival Progressive Web Application',
+    tools:
+      '(Javascript, ExpressJS, Vercel, NodeJS, Mongoose, Service Worker, Webpack, File-Loader, Image-Webpack-Analyzer, SW- Precache-Webpack, Webpack-PWA-Manifest)',
+    github: 'https://github.com/AdrianHenry15/food-festival',
+    demo: 'https://adrianhenry15.github.io/food-festival/'
   },
   {
     id: 3,
-    image: IMG3,
-    title: 'Taskinator',
-    description: 'A Task Tracker App',
-    tools: '(Javascript, CSS, HTML, Web Storage API)',
-    github: 'https://github.com/AdrianHenry15/Taskinator-Website',
-    demo: 'https://adrianhenry15.github.io/Taskinator-Website/'
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Task Master Pro',
-    description: 'A Task Creation Application',
-    tools: '(Javascript, HTML, CSS, jQuery)',
-    github: 'https://github.com/AdrianHenry15/Task-Master-Pro-App',
-    demo: 'https://adrianhenry15.github.io/Task-Master-Pro-App/'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Git Book',
-    description: 'Open Source Project Finder App',
-    tools: '(Javascript, HTML, CSS)',
-    github: 'https://github.com/AdrianHenry15/Git-Book',
-    demo: 'https://adrianhenry15.github.io/Git-Book/'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Blob',
-    description: 'Application For Social Blogging',
-    tools:
-      '(Javascript, NodeJS, ExpressJS, dotenv, MySQL, Sequelize, bcrypt, HandlebarsJS, Heroku, JawsDB)',
-    github: 'https://github.com/AdrianHenry15/blob',
-    demo: 'https://rocky-wave-46848.herokuapp.com/'
-  },
-  {
-    id: 7,
-    image: IMG7,
-    title: 'A Calendar App',
-    description: 'Local Time Calendar Scheduler',
-    tools: '(Javascript, HTML, CSS, MomentJS, jQuery)',
-    github: 'https://github.com/AdrianHenry15/Calendar-Application',
-    demo: 'https://adrianhenry15.github.io/Calendar-Application/'
-  },
-  {
-    id: 8,
-    image: IMG8,
-    title: 'Run Buddy',
-    description: 'Fitness Training Services Website',
-    tools: '(HTML, CSS)',
-    github: 'https://github.com/AdrianHenry15/Run-Buddy-Website',
-    demo: 'https://adrianhenry15.github.io/Run-Buddy-Website/'
-  },
-  {
-    id: 9,
-    image: IMG9,
-    title: '4Cast Weather App',
-    description: 'A Weather Application',
-    tools: '(Javascript, HTML, CSS, OpenWeather API)',
-    github: 'https://github.com/AdrianHenry15/4Cast',
-    demo: 'https://adrianhenry15.github.io/4Cast/'
-  },
-  {
-    id: 10,
-    image: IMG10,
-    title: 'iPlanner',
-    description: 'A Work Day Scheduler',
-    tools: '(Javascript, HTML, CSS. MomentJS)',
-    github: 'https://github.com/AdrianHenry15/iPlanner',
-    demo: 'https://adrianhenry15.github.io/iPlanner/'
-  },
-  {
-    id: 11,
-    image: IMG11,
-    title: 'ZooKeepr',
-    description: 'Animal Enthusiast App',
-    tools: '(Javascript, ExpressJS, Vercel, NodeJS)',
-    github: 'https://github.com/AdrianHenry15/zookeepr',
-    demo: 'https://zookeepr.vercel.app/'
-  },
-  {
-    id: 12,
     image: IMG12,
     title: 'Budget Tracker',
     description: 'Budget Tracking Progressive Web Application',
@@ -137,15 +58,110 @@ const data = [
     demo: 'https://track-buddy-budget-tracker.vercel.app/'
   },
   {
-    id: 13,
-    image: IMG13,
-    title: 'Food Festival',
-    description: 'Food Festival Progressive Web Application',
+    id: 4,
+    image: IMG11,
+    title: 'ZooKeepr',
+    description: 'Animal Enthusiast App',
+    tools: '(Javascript, ExpressJS, Vercel, NodeJS)',
+    github: 'https://github.com/AdrianHenry15/zookeepr',
+    demo: 'https://zookeepr.vercel.app/'
+  },
+  {
+    id: 5,
+    image: IMG10,
+    title: 'iPlanner',
+    description: 'A Work Day Scheduler',
+    tools: '(Javascript, HTML, CSS. MomentJS)',
+    github: 'https://github.com/AdrianHenry15/iPlanner',
+    demo: 'https://adrianhenry15.github.io/iPlanner/'
+  },
+  {
+    id: 6,
+    image: IMG9,
+    title: '4Cast Weather App',
+    description: 'A Weather Application',
+    tools: '(Javascript, HTML, CSS, OpenWeather API)',
+    github: 'https://github.com/AdrianHenry15/4Cast',
+    demo: 'https://adrianhenry15.github.io/4Cast/'
+  },
+  {
+    id: 7,
+    image: IMG8,
+    title: 'Run Buddy',
+    description: 'Fitness Training Services Website',
+    tools: '(HTML, CSS)',
+    github: 'https://github.com/AdrianHenry15/Run-Buddy-Website',
+    demo: 'https://adrianhenry15.github.io/Run-Buddy-Website/'
+  },
+  {
+    id: 8,
+    image: IMG7,
+    title: 'A Calendar App',
+    description: 'Local Time Calendar Scheduler',
+    tools: '(Javascript, HTML, CSS, MomentJS, jQuery)',
+    github: 'https://github.com/AdrianHenry15/Calendar-Application',
+    demo: 'https://adrianhenry15.github.io/Calendar-Application/'
+  },
+
+  {
+    id: 9,
+    image: IMG6,
+    title: 'Blob',
+    description: 'Application For Social Blogging',
     tools:
-      '(Javascript, ExpressJS, Vercel, NodeJS, Mongoose, Service Worker, Webpack, File-Loader, Image-Webpack-Analyzer, SW- Precache-Webpack, Webpack-PWA-Manifest)',
-    github: 'https://github.com/AdrianHenry15/food-festival',
-    demo: 'https://adrianhenry15.github.io/food-festival/'
-  }
+      '(Javascript, NodeJS, ExpressJS, dotenv, MySQL, Sequelize, bcrypt, HandlebarsJS, Heroku, JawsDB)',
+    github: 'https://github.com/AdrianHenry15/blob',
+    demo: 'https://rocky-wave-46848.herokuapp.com/'
+  },
+  
+  {
+    id: 10,
+    image: IMG5,
+    title: 'Git Book',
+    description: 'Open Source Project Finder App',
+    tools: '(Javascript, HTML, CSS)',
+    github: 'https://github.com/AdrianHenry15/Git-Book',
+    demo: 'https://adrianhenry15.github.io/Git-Book/'
+  },
+ 
+  {
+    id: 11,
+    image: IMG4,
+    title: 'Task Master Pro',
+    description: 'A Task Creation Application',
+    tools: '(Javascript, HTML, CSS, jQuery)',
+    github: 'https://github.com/AdrianHenry15/Task-Master-Pro-App',
+    demo: 'https://adrianhenry15.github.io/Task-Master-Pro-App/'
+  },
+  
+  {
+    id: 12,
+    image: IMG3,
+    title: 'Taskinator',
+    description: 'A Task Tracker App',
+    tools: '(Javascript, CSS, HTML, Web Storage API)',
+    github: 'https://github.com/AdrianHenry15/Taskinator-Website',
+    demo: 'https://adrianhenry15.github.io/Taskinator-Website/'
+  },
+
+  {
+    id: 13,
+    image: IMG2,
+    title: 'GitPokemon',
+    description: 'Connect Your Github with a Pokemon',
+    tools: '(Javascript, HTML, CSS, jQuery)',
+    github: 'https://github.com/AdrianHenry15/Pokemon-App',
+    demo: 'https://adrianhenry15.github.io/Pokemon-App/'
+  },
+  {
+    id: 14,
+    image: IMG1,
+    title: 'Open Source Kanban',
+    description: 'Social Media App',
+    tools: '(Javascript, HandlebarsJS, CSS, NodeJS, ExpressJS)',
+    github: 'https://github.com/AdrianHenry15/Group-Project-2',
+    demo: 'https://oskdb.herokuapp.com/'
+  },
 ];
 
 const Portfolio = () => {
