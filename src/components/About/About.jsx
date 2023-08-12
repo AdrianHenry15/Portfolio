@@ -7,12 +7,12 @@ import { FaRegFolderOpen } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // Brand Svg icons
 import {
-  faNode,
+  faJava,
   faCss3,
-  faGitAlt,
   faHtml5,
   faJsSquare,
-  faReact
+  faReact,
+  faPython
 } from '@fortawesome/free-brands-svg-icons';
 
 const About = () => {
@@ -25,7 +25,7 @@ const About = () => {
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faNode} color="#3C873A" />
+              <FontAwesomeIcon icon={faJava} color="#000000" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />
@@ -40,7 +40,7 @@ const About = () => {
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
             </div>
             <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+              <FontAwesomeIcon icon={faPython} color="#EFD81D" />
             </div>
           </div>
         </div>
@@ -55,17 +55,17 @@ const About = () => {
             <article className="about__card">
               <FaUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>25+ Clients Worldwide</small>
+              <small>10+ Clients Worldwide</small>
             </article>
             <article className="about__card">
               <FaRegFolderOpen className="about__icon" />
               <h5>Projects</h5>
-              <small>25+ Completed Projects</small>
+              <small>75+ Completed Projects</small>
             </article>
           </div>
 
           <p>
-            Full Stack Software Developer leveraging a background in Health Insurance, Hospitality and Audio
+            Full Stack Software Developer leveraging a background in Hospitality and Audio
             Production to build a more Intuitive User experience on The Web. With each project, the
             aim is to gain more knowledge about Programming, Software Development, Engineering, and
             the benefits of Each User. Excited to spend time learning more about building better

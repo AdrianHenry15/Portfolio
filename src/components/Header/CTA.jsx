@@ -1,11 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import Resume from '../../assets/Images/Resume 5.4.pdf';
+
+const Resume = "https://docs.google.com/document/d/10d3Q5nhyrs0hrI89HexLWA9bp-UIHz-1IIohI518c6k/edit?usp=sharing"
 
 const CTA = () => {
   return (
     <div className="cta">
-      <a href={Resume} download className="btn">
+      <a target='_blank' rel='noreferrer' href={Resume} download className="btn">
         Resume
       </a>
       <a href="#contact" className="btn btn-primary">

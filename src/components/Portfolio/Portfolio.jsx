@@ -13,7 +13,7 @@ import IMG10 from '../../assets/Images/work_day_app.png';
 import IMG11 from '../../assets/Images/zoo_keepr.png';
 import IMG12 from '../../assets/Images/budget_app.png';
 import IMG13 from '../../assets/Images/food_fest_app.png';
-import IMG14 from '../../assets/Images/planit.png'
+import IMG14 from '../../assets/Images/planit.png';
 
 // import Swiper core and required modules
 import { Navigation } from 'swiper';
@@ -27,7 +27,6 @@ import 'swiper/css/navigation';
 // import "swiper/css/scrollbar";
 
 const data = [
-
   {
     id: 1,
     image: IMG14,
@@ -113,7 +112,7 @@ const data = [
     github: 'https://github.com/AdrianHenry15/blob',
     demo: 'https://rocky-wave-46848.herokuapp.com/'
   },
-  
+
   {
     id: 10,
     image: IMG5,
@@ -123,7 +122,7 @@ const data = [
     github: 'https://github.com/AdrianHenry15/Git-Book',
     demo: 'https://adrianhenry15.github.io/Git-Book/'
   },
- 
+
   {
     id: 11,
     image: IMG4,
@@ -133,7 +132,7 @@ const data = [
     github: 'https://github.com/AdrianHenry15/Task-Master-Pro-App',
     demo: 'https://adrianhenry15.github.io/Task-Master-Pro-App/'
   },
-  
+
   {
     id: 12,
     image: IMG3,
@@ -161,7 +160,7 @@ const data = [
     tools: '(Javascript, HandlebarsJS, CSS, NodeJS, ExpressJS)',
     github: 'https://github.com/AdrianHenry15/Group-Project-2',
     demo: 'https://oskdb.herokuapp.com/'
-  },
+  }
 ];
 
 const Portfolio = () => {
